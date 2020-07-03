@@ -1,0 +1,68 @@
+.checkerboard 
+{
+    display: inline-block;
+    border: 2px solid lightGray;
+    height: 33vw;
+    width: 33vw;
+  margin-left: 33vw;
+}
+.checkerboard .rowDiv 
+{
+    line-height: 1px;
+	  height: 12.5%;
+}
+.checkerboard .square 
+{
+    display: inline-block;
+    width: 12.5%;
+    height: 100%;
+}
+
+.hide 
+{
+	display: none;
+}
+
+.checkerPiece  
+{
+	width: 3vw;
+	height: 3vw;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid white;
+	cursor: pointer;	
+	margin: .45%;
+}
+
+.kingChecker
+{
+	border: 2px solid gold;
+}
+
+.highlightSquare
+{
+    border: thick solid purple;
+    cursor: pointer;
+    height: 3.6vw;
+    width: 3.6vw;
+    position: absolute;
+}
+
+.redPiece
+{
+	display: block;
+	background-color: red;
+}
+
+.blackPiece
+{ 
+	display: block;
+	background-color: black; 
+}
+
+.emptySquare
+{
+    height: 3.6vw;
+    width: 3.6vw;
+    position: absolute;
+}
