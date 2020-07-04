@@ -56,7 +56,7 @@ function Checker (pieceColor, rowPos, colPos)
 			var nextRow = this.row-1;
 			var nextCol = this.col-1;
 			
-		    if( nextRow < 0 || nextCol -1 < 0)
+		    if( nextRow < 0 || nextCol < 0)
 			{
 				return null;
 			}
